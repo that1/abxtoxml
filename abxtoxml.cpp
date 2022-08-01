@@ -7,6 +7,10 @@
 #include <algorithm>
 #include <openssl/evp.h>
 
+// ABX (Android Binary XML) to XML converter
+// Copyright (c) 2022, _that
+// SPDX-License-Identifier: GPL-3.0-only
+
 // test: g++ -g abxtoxml.cpp `pkg-config --libs openssl` && ./a.out packages.xml
 
 // based on https://www.cclsolutionsgroup.com/post/android-abx-binary-xml
